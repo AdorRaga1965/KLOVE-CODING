@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLOVE_ASSIGNMENT", "KLOVE_ASSIGNMENT.csproj", "{598DDD3F-79D5-4571-8E6F-1A6A1841258A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{598DDD3F-79D5-4571-8E6F-1A6A1841258A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598DDD3F-79D5-4571-8E6F-1A6A1841258A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598DDD3F-79D5-4571-8E6F-1A6A1841258A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598DDD3F-79D5-4571-8E6F-1A6A1841258A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51CF290D-DDA9-49E2-AF05-93EDBE01B001}
+	EndGlobalSection
+EndGlobal
