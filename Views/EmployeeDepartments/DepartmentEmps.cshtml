@@ -1,9 +1,31 @@
-﻿
+@model IEnumerable<KLOVE_ASSIGNMENT.Models.Employeedepartment>
 @{
     ViewData["Title"] = "DepartmentEmps";
 }
 
 <h2>Department Employees</h2>
+<table>
+    <tr>
+        <th style="width:50px">ID</th>
+        <th style="width:100px">Department ID</th>
+        <th style="width:100px">Employee ID</th>
+    </tr>
+    @foreach (var s in Model)
+    {
+        <tr style="background-color: #00CCFF; color: #FFFFFF;">
+            <td style="width:50px">
+                @Html.DisplayFor(p => s.ID)
+            </td>
+            <td style="width:100px">
+                @Html.DisplayFor(p => s.DepartmentID)
+            </td>
+            <td style="width:100px">
+                @Html.DisplayFor(p => s.EmployeeID)
+            </td>
+        </tr>
+    }
+</table>
+
 
 <div>
     <a asp-action="Index">Back to List</a>
